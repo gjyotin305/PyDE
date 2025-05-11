@@ -18,6 +18,11 @@ An easier way for python development [NVIM](https://github.com/neovim/neovim).
 - Grep on all files
 - Telescope
 
+## Aesthetics/Looks
+<div align="center">
+<img src="assets/ss.png", width=400>
+</div>
+
 ## Package Manager Install
 ```bash
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\

@@ -1,4 +1,4 @@
-# PyDE
+# PyIDE
 
 Your Python IDE in NVIM
 

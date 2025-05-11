@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/gjyotin305/.cache/nvim/packer_hererocks/2.1.1720049189/share/lua/5.1/?.lua;/home/gjyotin305/.cache/nvim/packer_hererocks/2.1.1720049189/share/lua/5.1/?/init.lua;/home/gjyotin305/.cache/nvim/packer_hererocks/2.1.1720049189/lib/luarocks/rocks-5.1/?.lua;/home/gjyotin305/.cache/nvim/packer_hererocks/2.1.1720049189/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/gjyotin305/.cache/nvim/packer_hererocks/2.1.1720049189/lib/lua/5.1/?.so"
+local package_path_str = "/Users/gjyotin305/.cache/nvim/packer_hererocks/2.1.1744318430/share/lua/5.1/?.lua;/Users/gjyotin305/.cache/nvim/packer_hererocks/2.1.1744318430/share/lua/5.1/?/init.lua;/Users/gjyotin305/.cache/nvim/packer_hererocks/2.1.1744318430/lib/luarocks/rocks-5.1/?.lua;/Users/gjyotin305/.cache/nvim/packer_hererocks/2.1.1744318430/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/Users/gjyotin305/.cache/nvim/packer_hererocks/2.1.1744318430/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -76,70 +76,70 @@ time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   LuaSnip = {
     loaded = true,
-    path = "/home/gjyotin305/.local/share/nvim/site/pack/packer/start/LuaSnip",
+    path = "/Users/gjyotin305/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
   catppuccin = {
     loaded = true,
-    path = "/home/gjyotin305/.local/share/nvim/site/pack/packer/start/catppuccin",
+    path = "/Users/gjyotin305/.local/share/nvim/site/pack/packer/start/catppuccin",
     url = "https://github.com/catppuccin/nvim"
   },
   ["cmp-nvim-lsp"] = {
     loaded = true,
-    path = "/home/gjyotin305/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
+    path = "/Users/gjyotin305/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
   ["dashboard-nvim"] = {
-    config = { "\27LJ\2\n�\n\0\0\6\0\16\0\0256\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\5\0005\4\4\0=\4\6\0034\4\6\0005\5\a\0>\5\1\0045\5\b\0>\5\2\0045\5\t\0>\5\3\0045\5\n\0>\5\4\0045\5\v\0>\5\5\4=\4\f\0035\4\r\0=\4\14\3=\3\15\2B\0\2\1K\0\1\0\vconfig\vfooter\1\3\0\0\5&Crafted with ❤️ by gjyotin305\vcenter\1\0\4\ticon\t \tdesc%Quit Neovim                     \vaction\aqa\bkey\6q\1\0\4\ticon\t \tdesc%Find Word                       \vaction\24Telescope live_grep\bkey\6w\1\0\4\ticon\t \tdesc%File Browser                    \vaction\27Telescope file_browser\bkey\6f\1\0\4\ticon\t \tdesc%Recently opened files           \vaction\23Telescope oldfiles\bkey\6r\1\0\4\ticon\t \tdesc%New File                        \vaction\tenew\bkey\6n\vheader\1\0\3\vfooter\0\vcenter\0\vheader\0\1\18\0\0001                                            1,-.----.                                    1\\    /  \\               ,---,        ,---,. 1|   :    \\            .'  .' `\\    ,'  .' | 1|   |  .\\ :         ,---.'     \\ ,---.'   | 1.   :  |: |         |   |  .`\\  ||   |   .' 1|   |   \\ :    .--, :   : |  '  |:   :  |-, 1|   : .   /  /_ ./| |   ' '  ;  ::   |  ;/| 1;   | |`-', ' , ' : '   | ;  .  ||   :   .' 1|   | ;  /___/ \\: | |   | :  |  '|   |  |-, 1:   ' |   .  \\  ' | '   : | /  ; '   :  ;/| 1:   : :    \\  ;   : |   | '` ,/  |   |    \\ 1|   | :     \\  \\  ; ;   :  .'    |   :   .' 1`---'.|      :  \\  \\|   ,.'      |   | ,'   1  `---`       \\  ' ;'---'        `----'     1               `--`                         1                                            \1\0\2\vconfig\0\ntheme\tdoom\nsetup\14dashboard\frequire\0" },
+    config = { "\27LJ\2\n�\n\0\0\6\0\16\0\0256\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\5\0005\4\4\0=\4\6\0034\4\6\0005\5\a\0>\5\1\0045\5\b\0>\5\2\0045\5\t\0>\5\3\0045\5\n\0>\5\4\0045\5\v\0>\5\5\4=\4\f\0035\4\r\0=\4\14\3=\3\15\2B\0\2\1K\0\1\0\vconfig\vfooter\1\3\0\0\5&Crafted with ❤️ by gjyotin305\vcenter\1\0\4\bkey\6q\tdesc%Quit Neovim                     \ticon\t \vaction\aqa\1\0\4\bkey\6w\tdesc%Find Word                       \ticon\t \vaction\24Telescope live_grep\1\0\4\bkey\6f\tdesc%File Browser                    \ticon\t \vaction\27Telescope file_browser\1\0\4\bkey\6r\tdesc%Recently opened files           \ticon\t \vaction\23Telescope oldfiles\1\0\4\bkey\6n\tdesc%New File                        \ticon\t \vaction\tenew\vheader\1\0\3\vheader\0\vfooter\0\vcenter\0\1\18\0\0001                                            1,-.----.                                    1\\    /  \\               ,---,        ,---,. 1|   :    \\            .'  .' `\\    ,'  .' | 1|   |  .\\ :         ,---.'     \\ ,---.'   | 1.   :  |: |         |   |  .`\\  ||   |   .' 1|   |   \\ :    .--, :   : |  '  |:   :  |-, 1|   : .   /  /_ ./| |   ' '  ;  ::   |  ;/| 1;   | |`-', ' , ' : '   | ;  .  ||   :   .' 1|   | ;  /___/ \\: | |   | :  |  '|   |  |-, 1:   ' |   .  \\  ' | '   : | /  ; '   :  ;/| 1:   : :    \\  ;   : |   | '` ,/  |   |    \\ 1|   | :     \\  \\  ; ;   :  .'    |   :   .' 1`---'.|      :  \\  \\|   ,.'      |   | ,'   1  `---`       \\  ' ;'---'        `----'     1               `--`                         1                                            \1\0\2\ntheme\tdoom\vconfig\0\nsetup\14dashboard\frequire\0" },
     loaded = false,
     needs_bufread = false,
     only_cond = false,
-    path = "/home/gjyotin305/.local/share/nvim/site/pack/packer/opt/dashboard-nvim",
+    path = "/Users/gjyotin305/.local/share/nvim/site/pack/packer/opt/dashboard-nvim",
     url = "https://github.com/nvimdev/dashboard-nvim"
   },
   ["lsp-zero.nvim"] = {
     loaded = true,
-    path = "/home/gjyotin305/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
+    path = "/Users/gjyotin305/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
     url = "https://github.com/VonHeikemen/lsp-zero.nvim"
   },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
-    path = "/home/gjyotin305/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
+    path = "/Users/gjyotin305/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
     url = "https://github.com/williamboman/mason-lspconfig.nvim"
   },
   ["mason.nvim"] = {
     loaded = true,
-    path = "/home/gjyotin305/.local/share/nvim/site/pack/packer/start/mason.nvim",
+    path = "/Users/gjyotin305/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,
-    path = "/home/gjyotin305/.local/share/nvim/site/pack/packer/start/nvim-cmp",
+    path = "/Users/gjyotin305/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
-    path = "/home/gjyotin305/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    path = "/Users/gjyotin305/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-treesitter"] = {
     loaded = true,
-    path = "/home/gjyotin305/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    path = "/Users/gjyotin305/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "/home/gjyotin305/.local/share/nvim/site/pack/packer/start/packer.nvim",
+    path = "/Users/gjyotin305/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
   ["plenary.nvim"] = {
     loaded = true,
-    path = "/home/gjyotin305/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    path = "/Users/gjyotin305/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
-    path = "/home/gjyotin305/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    path = "/Users/gjyotin305/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   }
 }

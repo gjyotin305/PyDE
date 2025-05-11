@@ -1,9 +1,15 @@
+<div align="center">
+
+<img src="assets/logo.jpeg" width=200>
+
 # PyIDE
 
-Your Python IDE in NVIM
+[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
+![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/gjyotin305/PyIDE)
 
-## Author
-- gjyotin305
+An easier way for python development [NVIM](https://github.com/neovim/neovim).
+
+</div>
 
 ## Features:
 - Auto Completion
@@ -21,4 +27,11 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 ## Clone the repository
 ```bash
 git clone https://github.com/gjyotin305/PyDE.git ~/.config/nvim
+```
+
+## Start Neovim
+```bash
+nvim
+:PackerSync ## To sync all packages
+:LspInstall pyright
 ```

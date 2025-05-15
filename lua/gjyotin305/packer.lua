@@ -103,4 +103,10 @@ use {
       {'L3MON4D3/LuaSnip'},     -- Required
     }
 }
+use {
+  'nvim-tree/nvim-tree.lua',
+  requires = {
+    'nvim-tree/nvim-web-devicons', -- optional
+  },
+}
 end)

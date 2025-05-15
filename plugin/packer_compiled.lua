@@ -90,7 +90,7 @@ _G.packer_plugins = {
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
   ["dashboard-nvim"] = {
-    config = { "\27LJ\2\n�\n\0\0\6\0\16\0\0256\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\5\0005\4\4\0=\4\6\0034\4\6\0005\5\a\0>\5\1\0045\5\b\0>\5\2\0045\5\t\0>\5\3\0045\5\n\0>\5\4\0045\5\v\0>\5\5\4=\4\f\0035\4\r\0=\4\14\3=\3\15\2B\0\2\1K\0\1\0\vconfig\vfooter\1\3\0\0\5&Crafted with ❤️ by gjyotin305\vcenter\1\0\4\bkey\6q\tdesc%Quit Neovim                     \ticon\t \vaction\aqa\1\0\4\bkey\6w\tdesc%Find Word                       \ticon\t \vaction\24Telescope live_grep\1\0\4\bkey\6f\tdesc%File Browser                    \ticon\t \vaction\27Telescope file_browser\1\0\4\bkey\6r\tdesc%Recently opened files           \ticon\t \vaction\23Telescope oldfiles\1\0\4\bkey\6n\tdesc%New File                        \ticon\t \vaction\tenew\vheader\1\0\3\vheader\0\vfooter\0\vcenter\0\1\18\0\0001                                            1,-.----.                                    1\\    /  \\               ,---,        ,---,. 1|   :    \\            .'  .' `\\    ,'  .' | 1|   |  .\\ :         ,---.'     \\ ,---.'   | 1.   :  |: |         |   |  .`\\  ||   |   .' 1|   |   \\ :    .--, :   : |  '  |:   :  |-, 1|   : .   /  /_ ./| |   ' '  ;  ::   |  ;/| 1;   | |`-', ' , ' : '   | ;  .  ||   :   .' 1|   | ;  /___/ \\: | |   | :  |  '|   |  |-, 1:   ' |   .  \\  ' | '   : | /  ; '   :  ;/| 1:   : :    \\  ;   : |   | '` ,/  |   |    \\ 1|   | :     \\  \\  ; ;   :  .'    |   :   .' 1`---'.|      :  \\  \\|   ,.'      |   | ,'   1  `---`       \\  ' ;'---'        `----'     1               `--`                         1                                            \1\0\2\ntheme\tdoom\vconfig\0\nsetup\14dashboard\frequire\0" },
+    config = { "\27LJ\2\n�\n\0\0\6\0\16\0\0256\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\5\0005\4\4\0=\4\6\0034\4\6\0005\5\a\0>\5\1\0045\5\b\0>\5\2\0045\5\t\0>\5\3\0045\5\n\0>\5\4\0045\5\v\0>\5\5\4=\4\f\0035\4\r\0=\4\14\3=\3\15\2B\0\2\1K\0\1\0\vconfig\vfooter\1\3\0\0\5&Crafted with ❤️ by gjyotin305\vcenter\1\0\4\vaction\aqa\tdesc%Quit Neovim                     \bkey\6q\ticon\t \1\0\4\vaction\24Telescope live_grep\tdesc%Find Word                       \bkey\6w\ticon\t \1\0\4\vaction\27Telescope file_browser\tdesc%File Browser                    \bkey\6f\ticon\t \1\0\4\vaction\23Telescope oldfiles\tdesc%Recently opened files           \bkey\6r\ticon\t \1\0\4\vaction\tenew\tdesc%New File                        \bkey\6n\ticon\t \vheader\1\0\3\vcenter\0\vheader\0\vfooter\0\1\18\0\0001                                            1,-.----.                                    1\\    /  \\               ,---,        ,---,. 1|   :    \\            .'  .' `\\    ,'  .' | 1|   |  .\\ :         ,---.'     \\ ,---.'   | 1.   :  |: |         |   |  .`\\  ||   |   .' 1|   |   \\ :    .--, :   : |  '  |:   :  |-, 1|   : .   /  /_ ./| |   ' '  ;  ::   |  ;/| 1;   | |`-', ' , ' : '   | ;  .  ||   :   .' 1|   | ;  /___/ \\: | |   | :  |  '|   |  |-, 1:   ' |   .  \\  ' | '   : | /  ; '   :  ;/| 1:   : :    \\  ;   : |   | '` ,/  |   |    \\ 1|   | :     \\  \\  ; ;   :  .'    |   :   .' 1`---'.|      :  \\  \\|   ,.'      |   | ,'   1  `---`       \\  ' ;'---'        `----'     1               `--`                         1                                            \1\0\2\vconfig\0\ntheme\tdoom\nsetup\14dashboard\frequire\0" },
     loaded = false,
     needs_bufread = false,
     only_cond = false,
@@ -122,10 +122,20 @@ _G.packer_plugins = {
     path = "/Users/gjyotin305/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
+  ["nvim-tree.lua"] = {
+    loaded = true,
+    path = "/Users/gjyotin305/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+    url = "https://github.com/nvim-tree/nvim-tree.lua"
+  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/Users/gjyotin305/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "/Users/gjyotin305/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
